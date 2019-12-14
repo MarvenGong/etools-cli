@@ -1,0 +1,10 @@
+{
+  "mobile": {
+    "name": "mobile",
+    "path": "MarvenGong/heyd-template-h5"
+  },
+  "ms": {
+    "name": "ms",
+    "path": "MarvenGong/heyd-template-ms"
+  }
+}
