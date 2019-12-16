@@ -1,15 +1,18 @@
 # etools-cli
 ## 快速开发脚手架工具
+## github地址
+[etools-cli GitHub >](https://github.com/MarvenGong/etools-cli)
 ### 安装
 1. 安装nodejs环境，如已安装跳过。
 2. npm i -g etools-cli 安装脚手架
 3. etools -v 如能打印版本信息即安装成功。
 ### 指令文档
 - etools -v 查看版本信息
-- etools create-vue-app projectName 初始化vue项目 根据指引填写必要的项目名称，描述等信息完成初始化即可
+- etools create-vue-app projectName 初始化一个vue项目，可以选择后台系统还是移动端应用，包含了基础UI组件库，常用方法，路由配置，请求封装等常用代码。
+  根据指引填写必要的项目名称，描述等信息完成初始化即可
   > 注：若未输入projectName参数会在当前目录下创建项目，请自行确认当前目录信息。
   
-- etools generate [fileType, fileName] 生成模板文件
+- etools generate <fileType, fileName> 生成模板文件
   
   #### 参数说明
   - fileType 模板类型，暂时只支持vue
